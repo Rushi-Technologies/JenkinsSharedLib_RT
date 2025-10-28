@@ -71,7 +71,7 @@ def call(String buildStatus,String recipients) {
         subject: subject,
         body: body,
         mimeType: 'text/html',
-        to: recipient
+        to: recipients
     )   
 
 }
